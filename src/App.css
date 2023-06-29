@@ -1,0 +1,154 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.TitleSection {
+  background-color: #5DB9FF;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TitleSection input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #5d68ff;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button {
+  width: 160px;
+  height: 40px;
+  margin: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e9ff5d;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button:hover {
+  cursor: pointer;
+}
+
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DisplaySection h3 {
+  align-items: center;
+  margin: 5px;
+}
+
+.DisplaySection h4 {
+  align-items: center;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 35px;
+}
+
+.DisplaySection h1 {
+  margin: 0%;
+  padding: 0%;
+}
+
+.Pokemon {
+  width: 200px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.Types {
+  flex-direction: row;
+}
+
+.Type {
+  width: 75px;
+  padding-left: 2px;
+  padding-right: 2px
+}
+
+.StatSection {
+  width: 100%;
+  height: 300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column1 {
+  height: 100px;
+  padding-left: 50%;
+  text-align: center;
+}
+
+.column2 {
+  height: 100px;
+  padding-right: 50%;
+  text-align: center;
+}
+
+.column2 h3 {
+  align-items: center;
+  margin: 8px;
+}
+
+.hp {
+  border-radius: 10px;
+  border: 2px solid red;
+  background-color: red;
+}
+.attack {
+  border-radius: 10px;
+  border: 2px solid orange;
+  background-color: orange;
+}
+.defense {
+  border-radius: 10px;
+  border: 2px solid rgb(221, 244, 22);
+  background-color: rgb(221, 244, 22);
+}
+.special-attack {
+  border-radius: 10px;
+  border: 2px solid green;
+  background-color: green;
+}
+.special-defense {
+  border-radius: 10px;
+  border: 2px solid blue;
+  background-color: blue;
+}
+.speed {
+  border-radius: 10px;
+  border: 2px solid violet;
+  background-color: violet;
+}
